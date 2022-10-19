@@ -1,3 +1,21 @@
 *{
     border: 1px dashed yellow;
 }
+
+section{
+    padding: 3rem 0;
+}
+
+.jumbotron .row .col{
+    padding-top: 300px;
+}
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-size:cover;
+    background-position: center bottom;    
+}
+
+.jumbotron .img-box{
+    width: 50%;
+    min-width: 240px;
+}
