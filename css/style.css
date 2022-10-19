@@ -16,6 +16,11 @@ section{
     width: 50%;
     min-width: 240px;
 }
+
+.barra-nera .img-box{
+    width: 80px;
+    margin-left: auto;
+}
 .img-returnal{
     background-image:url(../img/jumbo-bg.png) ;
 }
