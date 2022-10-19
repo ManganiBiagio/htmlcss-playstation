@@ -1,21 +1,24 @@
-*{
-    border: 1px dashed yellow;
-}
 
 section{
     padding: 3rem 0;
 }
 
-.jumbotron .row .col{
+.img-returnal .row .col{
     padding-top: 300px;
 }
-.jumbotron{
-    background-image: url(../img/jumbo-bg.png);
+.jumbotron{ 
     background-size:cover;
-    background-position: center bottom;    
+    background-position: center;
+     
 }
 
 .jumbotron .img-box{
     width: 50%;
     min-width: 240px;
+}
+.img-returnal{
+    background-image:url(../img/jumbo-bg.png) ;
+}
+.img-ittakestwo{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
