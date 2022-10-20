@@ -1,6 +1,26 @@
-
+:root{
+    --my-color-primary:#00439C;
+    --my-color-secondary:#161C3B;
+    --my-color-third:#BEBCBB;
+    --my-color-forth:#1F1F1F;
+}
+.my-bg-primary{
+    background-color: var(--my-color-primary);
+}
+.my-bg-secondary{
+    background-color: var(--my-color-secondary);
+}
+.my-bg-third{
+    background-color: var(--my-color-third);
+}
+.my-bg-forth{
+    background-color: var(--my-color-forth);
+}
 section{
     padding: 3rem 0;
+}
+.banner{
+    padding: 0 0 ;
 }
 
 .img-returnal .row .col{
