@@ -19,6 +19,12 @@
 section{
     padding: 3rem 0;
 }
+a{
+    text-decoration: none;
+}
+nav a{
+    color: black;
+}
 .banner{
     padding: 0 0 ;
 }
@@ -46,7 +52,9 @@ section{
 .footer-bottom .img-box{
     width: 100px;
 }
-
+.nav-link-right .img-box img{
+    width: 20px;
+}
 
 .img-returnal{
     background-image:url(../img/jumbo-bg.png) ;
@@ -59,11 +67,31 @@ section{
     width: 16px;
     aspect-ratio: 1 / 1;
 }
+.arrow-down{
+    width: 10px;
+
+}
 .social-box{
     width: 160px;
 
 }
 
+.ft-size-0-8{
+    font-size: .8rem;
+}
+.hamburger-btn{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: .2rem .5rem;
+    
+}
+
+.my-btn{
+    border: unset;
+    padding: .4rem .8rem;
+    border-radius: 20px;
+
+}
 /* ------MEDIA QUERIES-------- */
 @media screen and (min-width:576px) {
     .social-box{
