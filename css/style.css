@@ -97,18 +97,25 @@ footer a{
     border: unset;
     padding: .4rem .8rem;
     border-radius: 20px;
+    
+}
+main .my-btn{
+    margin-top: 1rem;
 }
 .btn-orange{
     background-color: var(--my-btn-color);
     color: white;
+    
 }
 .btn-blu{
     background-color: var(--my-color-primary);
     color: white;
+    
 }
 .btn-light-blu{
     background-color: lightblue;
     color: var(--my-color-primary);
+    
 }
 /* ------MEDIA QUERIES-------- */
 @media screen and (min-width:576px) {
