@@ -20,6 +20,10 @@
 .my-c-primary{
     color: var(--my-color-primary);
 }
+header{
+    position: sticky;
+    top: -25px;
+}
 section{
     padding: 3rem 0;
 }
