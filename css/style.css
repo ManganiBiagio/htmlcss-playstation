@@ -3,6 +3,7 @@
     --my-color-secondary:#161C3B;
     --my-color-third:#BEBCBB;
     --my-color-forth:#1F1F1F;
+    --my-btn-color:#CD3D0F;
 }
 .my-bg-primary{
     background-color: var(--my-color-primary);
@@ -16,6 +17,9 @@
 .my-bg-forth{
     background-color: var(--my-color-forth);
 }
+.my-c-primary{
+    color: var(--my-color-primary);
+}
 section{
     padding: 3rem 0;
 }
@@ -24,6 +28,9 @@ a{
 }
 nav a{
     color: black;
+}
+footer a{
+    color: white;
 }
 .banner{
     padding: 0 0 ;
@@ -90,7 +97,18 @@ nav a{
     border: unset;
     padding: .4rem .8rem;
     border-radius: 20px;
-
+}
+.btn-orange{
+    background-color: var(--my-btn-color);
+    color: white;
+}
+.btn-blu{
+    background-color: var(--my-color-primary);
+    color: white;
+}
+.btn-light-blu{
+    background-color: lightblue;
+    color: var(--my-color-primary);
 }
 /* ------MEDIA QUERIES-------- */
 @media screen and (min-width:576px) {
