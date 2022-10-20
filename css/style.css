@@ -28,3 +28,8 @@ section{
 .img-ittakestwo{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+.burger-icon{
+    width: 16px;
+    aspect-ratio: 1 / 1;
+}
