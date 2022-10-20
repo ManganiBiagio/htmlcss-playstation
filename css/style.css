@@ -32,6 +32,12 @@ nav a{
 footer a{
     color: white;
 }
+main h1{
+    margin-bottom: 1rem;
+}
+.box-text{
+    padding-bottom: 1rem;
+}
 .banner{
     padding: 0 0 ;
 }
@@ -123,5 +129,16 @@ main .my-btn{
         aspect-ratio:1 / 1;
         width:60px;
         
+    }
+}
+@media screen and (min-width:768px){
+    .wd-md-50{
+        width: 50%;
+    }
+
+}
+@media screen and (min-width:992px){
+    .wd-lg-100{
+        width: 100%;
     }
 }
