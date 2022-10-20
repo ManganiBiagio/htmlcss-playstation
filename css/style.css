@@ -22,6 +22,12 @@ section{
     width: 80px;
     margin-left: auto;
 }
+
+.footer-bottom .img-box{
+    width: 100px;
+}
+
+
 .img-returnal{
     background-image:url(../img/jumbo-bg.png) ;
 }
@@ -32,4 +38,17 @@ section{
 .burger-icon{
     width: 16px;
     aspect-ratio: 1 / 1;
+}
+.social-box{
+    width: 160px;
+
+}
+
+/* ------MEDIA QUERIES-------- */
+@media screen and (min-width:576px) {
+    .social-box{
+        aspect-ratio:1 / 1;
+        width:60px;
+        
+    }
 }
