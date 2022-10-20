@@ -92,10 +92,7 @@ main h1{
     width: 160px;
 
 }
-.my-rounded{
-    aspect-ratio: 1 / 1;
-    border-radius: 20px;
-}
+
 
 .ft-size-0-8{
     font-size: .8rem;
