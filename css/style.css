@@ -163,6 +163,17 @@ main h1{
     transition: all .3s ;
 
 }
+.b-border{
+    padding-bottom: 3px;
+    
+    
+}
+.b-border:focus{
+    background-color: var(--my-color-primary);
+    width: 100%;
+    transition: all .2s;
+
+}
 
 
 
