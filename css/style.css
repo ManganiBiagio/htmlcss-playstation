@@ -86,13 +86,22 @@ main h1{
 }
 .arrow-down{
     width: 10px;
-
 }
 .social-box{
     width: 160px;
 
 }
-
+.arrow-down-blu{
+    display: none;
+    
+}
+.link-arrow:hover .arrow-down-gray{
+    display: none;
+    
+}
+.link-arrow:hover .arrow-down-blu{
+    display: block;
+}
 
 .ft-size-0-8{
     font-size: .8rem;
