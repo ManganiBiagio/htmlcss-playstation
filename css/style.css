@@ -77,20 +77,35 @@ main h1{
     transform: scale(1.3);
 }
 .btn-search:focus + .search-box {
-    display: block;
-   transition: all 2s;
+    right: 0px;
+   transition: all .4s ;
 }
 .btn-search:focus ~ .order-1{
     display: none !important;
+}
+.btn-search:focus{
+    opacity:0;
 }
 
 .btn-search{
     border: unset;
     background-color: transparent;
+    z-index: 3;
+    position: relative;
 }
 
 .search-box{
-    display: none;
+    position: absolute;
+    right: -200px;
+    z-index:2;
+    transform: scale(.9);
+}
+.hover-blu{
+    border: 3px solid transparent;
+}
+.hover-blu:hover{
+    border: 3px solid ;
+    border-color: #0e64d4;
 }
 
 .img-returnal{
@@ -138,6 +153,30 @@ main h1{
     padding: .4rem .8rem;
     border-radius: 20px;
     
+}
+.my-btn:hover{
+    animation: shm 1s infinite ;
+}
+.my-btn.bg-black:hover{
+    animation: none;
+    background-color: var(--my-color-primary) !important;
+    transition: all .3s ;
+
+}
+
+
+
+@keyframes shm {
+    0% {
+        transform: scale(.9);
+        
+    }
+    50% {
+        transform: scale(1.1);
+        }
+    100% {
+        transform: scale(.9);
+    }
 }
 main .my-btn{
     margin-top: 1rem;
