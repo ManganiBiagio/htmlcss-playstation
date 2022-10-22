@@ -30,6 +30,9 @@ section{
 a{
     text-decoration: none;
 }
+.txt-underline{
+    text-decoration:underline ;
+}
 nav a{
     color: black;
 }
